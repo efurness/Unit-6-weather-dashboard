@@ -1,7 +1,33 @@
 var submitEl = document.getElementById("submitEl")
 
 // add eventListerer to submit 
+submitEl.addEventListener("click", function(event) {
+    event.preventDefault();
+}
+var = "https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,minutely,alerts&appid={c8f8824f82f862c7696a070f2a1a8586"
 // fetch AP! data
+fetch(url)
+        .then(function(response) {
+            if (response.ok) {
+                console.log(response);
+                response.json().then(function (data) {
+                    console.log(data);
+
+                    img.src = data.photos[0].image.web;
+                })
+            }
+        })
+})
+current
+current.temp
+current.wind_speed
+current.uvi
+current.humidity
+daily
+standard
+test({
+"current": {
+    "dt": 1595243443,
 // when API data is fetched, use this for loop to render data to html
 
 for (var i = 0; i < 6; i++) {
