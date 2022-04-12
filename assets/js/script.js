@@ -44,7 +44,7 @@ localStorage.setItem("search-input", JSON.stringify(userSearcher))
                                         date.innerText = newdate.toLocaleDateString()
                                         temp.innerText = data.daily[i].temp.day + " Kelvin"
                                         wind.innerText = data.daily[i].wind_speed + " mph"
-                                        humid.innerText = data.daily[i].humidity + "% humidity"
+                                        humid.innerText = data.daily[i].humidity + "%  humidity"
                                     }
                                     
                                 })
