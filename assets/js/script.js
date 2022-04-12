@@ -34,12 +34,14 @@ localStorage.setItem("search-input", JSON.stringify(userSearcher))
                                     var uv = document.getElementById("uv1")
                                     uv.textContent = data.uvi
                                     for (var i = 0; i < 6; i++) {
+                                        var timestamp = data.daily[i].dt;
+                                        var newdate = new Date(timestamp*1000);
                                         var date = document.getElementById("date" + (i + 1))
                                         var temp = document.getElementById("temp" + (i + 1))
                                         var wind = document.getElementById("wind" + (i + 1))
                                         
                                         var humid = document.getElementById("humid" + (i + 1))
-                                        date.innerText = data.daily[i].dt
+                                        date.innerText = newdate.toLocaleDateString()
                                         temp.innerText = data.daily[i].temp.day
                                         wind.innerText = data.daily[i].wind_speed
                                         // 
