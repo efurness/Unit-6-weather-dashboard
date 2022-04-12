@@ -1,3 +1,17 @@
 col-12 col-md-8 col-xl-9 {
     align-items: flex-end;
+    font-size: medium;
 }
+
+footer {
+    height: 50px;
+    color:blue;
+    background-color: chartreuse;
+    position: relative;
+    justify-content: center;
+}
+
+h5, p {
+    font-size: medium;
+}
+

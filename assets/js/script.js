@@ -42,10 +42,9 @@ localStorage.setItem("search-input", JSON.stringify(userSearcher))
                                         
                                         var humid = document.getElementById("humid" + (i + 1))
                                         date.innerText = newdate.toLocaleDateString()
-                                        temp.innerText = data.daily[i].temp.day
-                                        wind.innerText = data.daily[i].wind_speed
-                                        // 
-                                        humid.innerText = data.daily[i].humidity
+                                        temp.innerText = data.daily[i].temp.day + " Kelvin"
+                                        wind.innerText = data.daily[i].wind_speed + " mph"
+                                        humid.innerText = data.daily[i].humidity + " %"
                                     }
                                     
                                 })
