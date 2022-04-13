@@ -18,7 +18,7 @@ https://github.com/efurness/Unit-6-weather-dashboard.git
 
 ## Contact
 
-Ellen Furness 
+Ellen F.
 
 ## Acknowledgments
 
