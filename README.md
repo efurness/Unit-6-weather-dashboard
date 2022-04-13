@@ -16,7 +16,7 @@ https://github.com/efurness/Unit-6-weather-dashboard.git
 
 [Project screenshot](assets/images/weatherdashboard2.png) 
 
-## Contact
+## Contact information
 
 Ellen F.
 
