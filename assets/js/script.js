@@ -7,13 +7,16 @@ var userSearcher
 var storage = JSON.parse(localStorage.getItem("search-input"))
 if (storage) userSearcher = storage 
 else userSearcher = []
+
 // add eventListerer to submit 
 submitEl.addEventListener("click", function (event) {
     event.preventDefault();
     var city = searchInput.value;
+
 // click new variable for city, pushing user search of city to storage using JSON stringify
 userSearcher.push(city)
 localStorage.setItem("search-input", JSON.stringify(userSearcher))
+
 // establishing a url to get data from API open weather map for forecast and setting key to get data
     var firstUrl = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=c8f8824f82f862c7696a070f2a1a8586";
 // here using fetch response to get longitude and latitude for a particular city
