@@ -52,8 +52,8 @@ localStorage.setItem("search-input", JSON.stringify(userSearcher))
                                         var humid = document.getElementById("humid" + (i + 1))
                                         // putting data into innertext of cards that have 5 day forcast
                                         date.innerText = newdate.toLocaleDateString()
-                                        temp.innerText = data.daily[i].temp.day + " Kelvin"
-                                        wind.innerText = data.daily[i].wind_speed + " mph"
+                                        temp.innerText = "Temperature " + data.daily[i].temp.day + " Kelvin"
+                                        wind.innerText = "Wind speed " + data.daily[i].wind_speed  + " mph"
                                         humid.innerText = data.daily[i].humidity + "%  humidity"
                                     }
                                     
