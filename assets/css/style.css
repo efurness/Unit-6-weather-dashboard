@@ -4,16 +4,14 @@ col-12 col-md-8 col-xl-9 {
     
 }
 
-footer {
-    height: 50px;
-    color:blue;
-    background-color: chartreuse;
-    position: relative;
-    justify-content: center;
-}
 
 h5, p {
     font-size: medium;
+    color: white
+}
+ 
+h3 {
+    color: white;
 }
 .main {
         /* Turns this element into a flexbox */
@@ -34,9 +32,16 @@ h5, p {
 }
 
 .card-header {
-    background-color: rgb(87, 94, 146);
+    background-color: rgb(87, 88, 146);
     color: white;
 }
+
+footer {
+    height: 50px;
+    color:blue;
+    background-color: chartreuse;
+    position: relative;
+    justify-content: center;
 
 @media screen and (width: 764px) {
     .container {
