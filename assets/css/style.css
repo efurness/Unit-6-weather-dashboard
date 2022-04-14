@@ -46,6 +46,7 @@ footer {
     background-color: chartreuse;
     position: relative;
     justify-content: center;
+    text-align: center;
 
     @media screen and (width: 764px) {
         .container {
