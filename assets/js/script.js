@@ -40,6 +40,7 @@ localStorage.setItem("search-input", JSON.stringify(userSearcher))
                                     // getting UV data and adding uvi data to text content
                                     var uv = document.getElementById("uv1")
                                     uv.textContent = data.uvi
+                                    
                 // a for statement to get the 1 day forcast and next five days getting date, temp and wind
                                     for (var i = 0; i < 6; i++) {
                                         // converting timestamp to new date

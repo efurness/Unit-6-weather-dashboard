@@ -1,54 +1,58 @@
 col-12 col-md-8 col-xl-9 {
     align-items: flex-end;
     font-size: medium;
-    
+
 }
 
 
-h5, p {
+h5,
+p {
     font-size: medium;
     color: white
 }
- 
+
 h3 {
     color: white;
 }
+
 .main {
-        /* Turns this element into a flexbox */
+    /* Turns this element into a flexbox */
     display: flex;
-        /* Forces elements to the next line if they don't fit */
-        flex-wrap: wrap;
-        margin-top: 2%;
-      
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+
 }
+
 .card {
+
     flex: 1 0 200px;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-  border-color: chartreuse;
-  border-width: 2px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: chartreuse;
+    border-width: 2px;
 
 }
 
 .card-header {
-    background-color: rgb(87, 88, 146);
+    background-color: rgb(135, 135, 186);
     color: white;
 }
 
 footer {
     height: 50px;
-    color:blue;
+    color: blue;
     background-color: chartreuse;
     position: relative;
     justify-content: center;
 
-@media screen and (width: 764px) {
-    .container {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-}
+    @media screen and (width: 764px) {
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+}}
