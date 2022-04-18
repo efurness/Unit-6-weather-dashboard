@@ -14,9 +14,10 @@ https://github.com/efurness/Unit-6-weather-dashboard.git
 
 [Project screenshot](assets/images/weather.gif) 
 
+
 ## Contact information
 
-Ellen F.
+Ellen.Furness@du.edu
 
 ## Acknowledgments
 
