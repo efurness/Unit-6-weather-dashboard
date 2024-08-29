@@ -17,7 +17,7 @@ function weatherAPI(event) {
   var firstUrl =
     "https://api.openweathermap.org/data/3.0/forecast?q=" +
     city +
-    "&appid=c8f8824f82f862c7696a070f2a1a8586";
+    "&appid=96310c3f8c40d02b6cb18af99f7362d3";
   // here using fetch response to get longitude and latitude for a particular city
   fetch(firstUrl).then(function (response) {
     if (response.ok) {
@@ -31,7 +31,7 @@ function weatherAPI(event) {
           lat +
           "&lon=" +
           long +
-          "&units=imperial&exclude=hourly,minutely,alerts&appid=c8f8824f82f862c7696a070f2a1a8586";
+          "&units=imperial&exclude=hourly,minutely,alerts&appid=96310c3f8c40d02b6cb18af99f7362d3";
 
         // fetch API data for a second onecall with key
         fetch(url).then(function (response) {
@@ -116,7 +116,7 @@ submitEl.addEventListener("click", function (event) {
           lat +
           "&lon=" +
           long +
-          "&units=imperial&exclude=hourly,minutely,alerts&appid=c8f8824f82f862c7696a070f2a1a8586";
+          "&units=imperial&exclude=hourly,minutely,alerts&appid=96310c3f8c40d02b6cb18af99f7362d3";
 
         // fetch API data for a second onecall with key
         fetch(url).then(function (response) {
