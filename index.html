@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body>
+  <header class="jumbotron jumbotron-fluid bg-dark text-light">
+    <div class="container" id="history">
+      <div class="row align-items-end">
+        <div class="col-12 col-md-6">
+          <img class='img-fluid' src="assets/images/storm.png" alt="NASA storm images" />
+        </div>
+        <!--  search input in jumbotron       -->
+        <h1 class="text-primary">Search weather for your town <area shape="" coords="" href="" alt=""></h1>
+        <form id="search-form" class="form w-100">
+          <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
+        </form>
+        <button class="btn btn-primary" id="submitEl">Submit</button>
+
+      </div>
+
+
+    </div>
+  </header>
+  <main class="container-fluid">
+    <h4>CURRENT WEATHER</h4>
+
+    <section>
+
+      <div class="flex-row align-center justify-center min-100-vh bg-primary">
+
+        <div class="col-12 col-md-4 col-xl-3">
+        </div>
+        <!-- main section with current day data -->
+        <div class="col-12 col-md-8 col-xl-9">
+  
+          <br>
+          <br>
+          <h5 id="date1">DATE</h5>
+          <br>
+
+          <h5 id="temp1">CURRENT TEMPERATURE</h5>
+          <br>
+          <p id="wind1">WINDSPEED</p>
+          <p id="uv1">UV INDEX</p>
+          <p id="humid1">HUMIDITY</p>
+        </div>
+
+      </div>
+      </div>
+
+
+      </div>
+    </section>
+    <section class="main">
+      <div class="container">
+        <!-- cards from bootstrap, holding lists of data for 5 day forcast -->
+        <h4>FIVE DAY FORECAST</h4>
+        <div class="row">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header" id="date2">
+              Day 2
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" id="temp2">Temp</li>
+              <li class="list-group-item" id="wind2">Wind</li>
+              <li class="list-group-item" id="humid2">Humidity</li>
+            </ul>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-header" id="date3">
+              Day 3
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" id="temp3">Temp</li>
+              <li class="list-group-item" id="wind3">Wind</li>
+              <li class="list-group-item" id="humid3">Humidity</li>
+            </ul>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-header" id="date4">
+              Day 4
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" id="temp4">Temp</li>
+              <li class="list-group-item" id="wind4">Wind</li>
+              <li class="list-group-item" id="humid4">Humidity</li>
+            </ul>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <div class="card-header" id="date5">
+              Day 5
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" id="temp5">Temp</li>
+              <li class="list-group-item" id="wind5">Wind</li>
+              <li class="list-group-item" id="humid5">Humidity</li>
+            </ul>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-header" id="date6">
+              Day 6
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" id="temp6">Temp</li>
+              <li class="list-group-item" id="wind6">Wind</li>
+              <li class="list-group-item" id="humid6">Humidity</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    </div>
+
+  </main>
+
+
+  </container>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+
+  <script src="./assets/js/script.js"></script>
+
+  <footer>weather for your soul</footer>
+</body>
+
+
+</html>

@@ -27,7 +27,7 @@ function weatherAPI(event) {
         var long = data.city.coord.lon;
         var lat = data.city.coord.lat;
         var url =
-          "https://api.openweathermap.org/data/3.0/onecall?lat=" +
+          "https://api.openweathermap.org/data/3.0/forecast?lat=" +
           lat +
           "&lon=" +
           long +
@@ -112,7 +112,7 @@ submitEl.addEventListener("click", function (event) {
         var long = data.city.coord.lon;
         var lat = data.city.coord.lat;
         var url =
-          "https://api.openweathermap.org/data/3.0/onecall?lat=" +
+          "https://api.openweathermap.org/data/3.0/forecast?lat=" +
           lat +
           "&lon=" +
           long +
